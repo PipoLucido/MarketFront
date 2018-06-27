@@ -1,0 +1,60 @@
+#navTop
+{
+    top:0 ;
+    right: 0;
+    left: 0;
+    
+}
+
+#carritoDeCompras
+{
+    right: 0;
+    position: absolute;
+    margin-right: 21px;
+}
+
+.backgroundBuscador
+{
+    height: 425px;
+}
+
+.buscador
+{
+    margin: 60px;
+}
+
+.colorNavHijo
+{
+   background-color: #f2cd75;
+}
+
+.colorNavMaster
+{
+    background-color: #e4ad2c;
+}
+
+.seleccionarCategoria
+{
+    color: #936b0e;
+}
+
+.imgI
+{
+    height: 25px;
+    width: 25px;
+}
+
+.cardCarta
+{
+    margin: 25px;
+    width:250px;
+}
+
+#cantidad{
+    color: red;
+}
+
+.imgCard
+{
+    padding: 3px;
+}
