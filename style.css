@@ -1,5 +1,7 @@
 #navTop
 {
+    position: relative;
+    position: fixed;
     top:0 ;
     right: 0;
     left: 0;
@@ -9,13 +11,24 @@
 #carritoDeCompras
 {
     right: 0;
-    position: absolute;
-    margin-right: 21px;
+   position: absolute;
+    margin-right: 3px;
+    margin-top: -13px;
+}
+
+#btnDeCompras
+{
+    right: 0;
+    position: relative;
+    margin-right: 4px;
+    width: 35px;
+    height:35px ;
 }
 
 .backgroundBuscador
 {
     height: 425px;
+
 }
 
 .buscador
@@ -48,6 +61,12 @@
 {
     margin: 25px;
     width:250px;
+}
+
+.cardCarro
+{
+    margin: 25px;
+    width:150px;
 }
 
 #cantidad{
