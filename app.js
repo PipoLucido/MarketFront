@@ -40,27 +40,15 @@ let articulos=[ `<div class="card cardCarta rounded-0 imgCard" >
 
 let verificadorDeCarrito = [0,0,0,0];
 
-let articulosEnCarrito2=[ `<div class="card cardCarro rounded-0 imgCard" >
-<img class="card-img-top" src="img/cafecito.jpg" alt="Card image cap">
-<div class="card-body">
+let articulosEnCarrito2=[ `
   <p class="card-title" id="verificadorDeCafeChico">Cafe Chico x${verificadorDeCarrito[0]+1}</p>
-</div>
-</div>`,`<div class="card cardCarro rounded-0 imgCard" >
-<img class="card-img-top" src="img/cafecito.jpg" alt="Card image cap">
-<div class="card-body">
+`,`
   <p class="card-title" id="verificadorDeCafeMediano">Cafe Mediano x${verificadorDeCarrito[1]+1}</p>
-</div>
-</div>`,`<div class="card cardCarro rounded-0 imgCard" >
-<img class="card-img-top" src="img/cafecito.jpg" alt="Card image cap">
-<div class="card-body">
+`,`
   <p class="card-title" id="verificadorDeCafeGrande" >Cafe Grande x${verificadorDeCarrito[2]+1}</p>
-</div>
-</div>`,`<div class="card cardCarro rounded-0" >
-<img class="card-img-top " src="img/325356-Red_Velvet_3_web.jpg" alt="Card image cap">
-<div class="card-body">
+`,`
   <p class="card-title" id="verificadorDeTorta" >Torta x${verificadorDeCarrito[3]+1}</p>
-</div>
-</div>`];
+`];
 
 articulosDIV = `    
 <div class="container">
