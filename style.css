@@ -16,9 +16,6 @@
     margin-top: -13px;
 }
 
-.buscador{
-margin-top:20px;
-}
 
 #btnDeCompras
 {
@@ -31,7 +28,7 @@ margin-top:20px;
 
 .backgroundBuscador
 {   
-    
+    margin-top: 50px;
     width:100%;
     height:auto;
 }
